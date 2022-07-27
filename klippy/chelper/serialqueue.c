@@ -85,9 +85,9 @@ struct serialqueue {
 #define SQT_CAN 'c'
 #define SQT_DEBUGFILE 'f'
 
-#define MIN_RTO 0.2
+#define MIN_RTO 0.5
 #define MAX_RTO 5.000
-#define MAX_PENDING_BLOCKS 20
+#define MAX_PENDING_BLOCKS 100
 #define MIN_REQTIME_DELTA 0.250
 #define MIN_BACKGROUND_DELTA 0.005
 #define IDLE_QUERY_TIME 1.0
